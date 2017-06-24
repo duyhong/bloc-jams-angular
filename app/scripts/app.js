@@ -7,14 +7,14 @@
             });
          
         $stateProvider
-         .state('landing', {
+          .state('landing', {
              url: '/',
              templateUrl: '/templates/landing.html'
-         })
-         .state('album', {
+          })
+          .state('album', {
              url: '/album',
              templateUrl: '/templates/album.html'
-         });
+          });
      }
  
      angular
