@@ -1,6 +1,8 @@
 ﻿# Bloc Jams
 
-Bloc Jams is a digital music player like Spotify. This is a  single-page application built on AngularJS framework.
+![Node Install](../master/screenshots/album.png)
+
+Bloc Jams is a digital music player like [Spotify](https://www.spotify.com/us/). This is a  single-page application built on AngularJS framework.
 
 ## Pull Down the Code
 
