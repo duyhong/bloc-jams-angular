@@ -48,7 +48,7 @@ $ npm start
 
 Once the dependencies are installed, you can run npm start to start the application. You will then be able to access it at localhost:3000
 
-![Bloc Jams](../master/screenshots/bloc_jams_angular.png)
+![Bloc Jams](../master/screenshots/bloc_jams_angular.PNG)
 
 The server will start up. To stop the server, press `cntrl + c`.
 
