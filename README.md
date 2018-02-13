@@ -28,7 +28,7 @@ The project uses Node to run a JS server in development. This will be important 
 
 NodeJS and NPM are installed together by [downloading an installer from the Node website](https://nodejs.org/). The install button should automatically detect your operating system, but if it doesn't, you can choose the proper version from the [downloads page](https://nodejs.org/download/).
 
-![](https://github.com/duyhong/bloc-jams-angular/tree/master/screenshots/node-install-button.png)
+![Node Install](../master/screenshots/node-install-button.png)
 
 Install the project dependencies by running:
 
@@ -48,7 +48,7 @@ $ npm start
 
 Once the dependencies are installed, you can run npm start to start the application. You will then be able to access it at localhost:3000
 
-![](https://github.com/duyhong/bloc-jams-angular/tree/master/screenshots/bloc_jams_angular.png)
+![Bloc Jams](../master/screenshots/bloc_jams_angular.png)
 
 The server will start up. To stop the server, press `cntrl + c`.
 
@@ -73,23 +73,3 @@ The server will start up. To stop the server, press `cntrl + c`.
 └── server.js
 ```
 
-
-## Usage
-
-Add images to the `app/assets/images` directory. To reference images in HTML, use the path `/assets/images/<image file name>.jpg`. For example, to include the image called `bloc-white-logo.png`, the path for the `src` attribute in the HTML would be:
-
-```html
-<img src="/assets/images/bloc-white-logo.png">
-```
-
-__Note:__ A sample image has been added to `app/images`. To remove the image from the application, run the following command from the root of repo:
-
-```bash
-$ rm -f app/assets/images/bloc-white-logo.png
-```
-
-To reference any other assets, like the music in Bloc Jams, use the path `assets/<asset-type>/<asset-file-name>`.
-
-### Difference between Pages and Templates
-
-The `templates` directory should hold any HTML files used as templates in Angular states configured by UI Router. All other HTML files belong in the `pages` directory.
