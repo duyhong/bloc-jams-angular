@@ -1,18 +1,18 @@
-## Bloc Frontend Project Starter
+﻿# Bloc Jams
 
-A starter application for student projects in Bloc's [Frontend Web Development Course](https://www.bloc.io/frontend-development-bootcamp).
+Bloc Jams is a digital music player like Spotify. This is a  single-page application built on AngularJS framework.
 
 ## Pull Down the Code
 
 Start by cloning the repository:
 
 ```
-$ git clone https://github.com/Bloc/bloc-frontend-project-starter.git <your-frontend-project-name>
+$ git clone https://github.com/duyhong/bloc-jams-angular.git <your-project-name>
 ```
 
 ## Reset Git
 
-This will be your personal project. So all of the past commit history that we used to build this starter app aren't needed. Also you will want to be able to push/pull code from your personal remote (Github) repository and NOT Bloc's remote (Github) repository.
+This will be your personal application. So all of the past commit history that I used to build this  app aren't needed. Also you will want to be able to push/pull code from your personal remote (Github) repository and NOT my remote (Github) repository.
 
 Remove the existing local Git repository:
 
@@ -20,24 +20,15 @@ Remove the existing local Git repository:
 $ rm -r -f .git
 ```
 
-Initialize a new Git repository, add all of these existing files, and commit them:
-
-```
-$ git init
-$ git add .
-$ git commit -m "initial commit"
-```
-
-Go to Github and create a new repository. Add that new repository as the proper remote. Then push your initial commit.
-
-```
-$ git remote add origin <URL TO NEW GITHUB REPO>
-$ git push origin master
-```
-
 ## Configuration
 
-The project uses Node to run a JS server in development. This will be important when we want to use urls /album or /collection instead of the basic album.html or collection.html. It may  help to review [our resource on NPM and `package.json` files](https://www.bloc.io/resources/npm-and-package-json).
+The project uses Node to run a JS server in development. This will be important when we want to use urls /album or /collection instead of the basic album.html or collection.html. 
+
+### Install Node and NPM
+
+NodeJS and NPM are installed together by [downloading an installer from the Node website](https://nodejs.org/). The install button should automatically detect your operating system, but if it doesn't, you can choose the proper version from the [downloads page](https://nodejs.org/download/).
+
+![](https://github.com/duyhong/bloc-jams-angular/screenshots/node-install-button.png)
 
 Install the project dependencies by running:
 
@@ -53,16 +44,11 @@ Run the application server:
 $ npm start
 ```
 
+## Usage
+
+Once the dependencies are installed, you can run npm start to start the application. You will then be able to access it at localhost:3000
+
 The server will start up. To stop the server, press `cntrl + c`.
-
-
-## Use in Brackets Live Preview
-
-To use the application with the Live Preview functionality of the Brackets text editor, go to __File > Project Settings__ and add `http://localhost:3000` to the Base URL field.
-
-![Screenshot of project settings URL in Brackets](https://bloc-global-assets.s3.amazonaws.com/images-frontend/screenshots/bloc-frontend-project-starter/live_preview_project_settings.png)
-
-The text in the application will not update on every keystroke, but changes will automatically push when you save the file.
 
 ## Directory Structure
 
@@ -86,7 +72,7 @@ The text in the application will not update on every keystroke, but changes will
 ```
 
 
-### Assets/Images
+## Usage
 
 Add images to the `app/assets/images` directory. To reference images in HTML, use the path `/assets/images/<image file name>.jpg`. For example, to include the image called `bloc-white-logo.png`, the path for the `src` attribute in the HTML would be:
 
